@@ -22,7 +22,7 @@ pipeline {
         }
         stage('Notification') {
             steps {
-                emailext body: 'Sharath, the recent build was successful', subject: 'Build SUCCESSFUL!!!!!!!', to: 'shrth7777@gmail.com'
+                emailext body: ' the recent build was successful', subject: 'Build SUCCESSFUL!!!!!!!', to: 'shrth7777@gmail.com'
             }
         }
         }
